@@ -72,7 +72,6 @@ namespace Sample_App
         protected void btnDel_Click(object sender, EventArgs e)
         {
             int empid = int.Parse(txtempID.Text);
-
             conn.Open();
             SqlCommand updatecmd = new SqlCommand("delete from Employee where empID = '"+empid+"'", conn);
             updatecmd.ExecuteNonQuery();
