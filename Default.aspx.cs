@@ -11,7 +11,6 @@ namespace Sample_App
 {
     public partial class _Default : Page
     {
-
         SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-CKOPJQ7\SQLEXPRESS;Initial Catalog=CRUD;User ID=sa;Password=1234");
         protected void Page_Load(object sender, EventArgs e)
         {
